@@ -7,7 +7,7 @@ Follow the steps below to set up the environment and run the project:
 
 ### 1. Create Conda Environment
 ```bash
-conda create -f env.yaml
+conda env create -f env.yaml
 ```
 This command creates a Conda environment using the specifications defined in the `env.yaml` file.
 
