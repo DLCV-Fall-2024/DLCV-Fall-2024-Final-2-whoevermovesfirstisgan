@@ -21,12 +21,12 @@ models:
 
 # path
 path:
-  lora_path: ./experiments/ED-LoRA_ours/gray_cat_wearable_glasses.pth
+  lora_path: ./experiments/EDLoRA_serenewatercolor_on_graycat_wearableglasses_v3/models/edlora_model-latest.pth
 
 # validation settings
 val:
   compose_visualize: true
-  alpha_list: [0.0, 0.7, 1.0]
+  alpha_list: [0.7]
   sample:
     num_inference_steps: 75
     guidance_scale: 7.5

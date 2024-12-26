@@ -1,4 +1,4 @@
-name: prompt3
+name: test_welsh_dog_v2
 manual_seed: 0
 mixed_precision: fp16
 
@@ -6,27 +6,27 @@ mixed_precision: fp16
 datasets:
   val_vis:
     name: PromptDataset
-    prompts: datasets_ours/validation_prompts/prompt3.txt
-    negative_prompts: "low quality"
+    prompts: datasets_ours/validation_prompts/test.txt
+    negative_prompts: ""
     num_samples_per_prompt: 8
     latent_size: [ 4,64,64 ]
     replace_mapping:
-      <TOK>: <serene_watercolor_1> <serene_watercolor_2> 
+      <TOK>: <welsh_dog_1> <welsh_dog_2> 
     batch_size_per_gpu: 8
 
 models:
-  pretrained_path: ./fusion/graycat+wearableglasses/combined_model_base
+  pretrained_path: experiments/pretrained_models/chilloutmix
   enable_edlora: true  # true means ED-LoRA, false means vallina LoRA
   alpha_list: [0, 0.4, 0.6, 1.0] # 0 means only visualize embedding (without lora weight)
 
 # path
 path:
-  lora_path: ./experiments/ED-LoRA_ours/gray_cat_wearable_glasses.pth
+  lora_path: experiments/ED-LoRA_ours/welsh_dog.pth
 
 # validation settings
 val:
   compose_visualize: true
   alpha_list: [0.0, 0.7, 1.0]
   sample:
-    num_inference_steps: 75
+    num_inference_steps: 50
     guidance_scale: 7.5
