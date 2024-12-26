@@ -1,0 +1,32 @@
+name: prompt3
+manual_seed: 0
+mixed_precision: fp16
+
+# dataset and data loader settings
+datasets:
+  val_vis:
+    name: PromptDataset
+    prompts: datasets_ours/validation_prompts/prompt3.txt
+    negative_prompts: "low quality"
+    num_samples_per_prompt: 8
+    latent_size: [ 4,64,64 ]
+    replace_mapping:
+      <TOK>: <serene_watercolor_1> <serene_watercolor_2> 
+    batch_size_per_gpu: 8
+
+models:
+  pretrained_path: ./fusion/graycat+wearableglasses/combined_model_base
+  enable_edlora: true  # true means ED-LoRA, false means vallina LoRA
+  alpha_list: [0, 0.4, 0.6, 1.0] # 0 means only visualize embedding (without lora weight)
+
+# path
+path:
+  lora_path: ./experiments/EDLoRA_serenewatercolor_on_graycat_wearableglasses_v3/models/edlora_model-latest.pth
+
+# validation settings
+val:
+  compose_visualize: true
+  alpha_list: [0.0, 0.7, 1.0]
+  sample:
+    num_inference_steps: 75
+    guidance_scale: 7.5
