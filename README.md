@@ -1,28 +1,32 @@
 # DLCV Final Project ( Multiple Concept Personalization )
+# Team 6 - WhoeverMovesFirstIsGAN
 
-# How to run your code?
-* TODO: Please provide the scripts for TAs to reproduce your results, including training and inference. For example, 
+## Setup Instructions
 
-```shell script=
-bash train.sh <Path to gt image folder> <Path to annot file>
-bash inference.sh <Path to gt image folder> <Path to annot file> <Path to output image folder>
+Follow the steps below to set up the environment and run the project:
+
+### 1. Create Conda Environment
+```bash
+conda create -f env.yaml
 ```
+This command creates a Conda environment using the specifications defined in the `env.yaml` file.
 
-# Usage
-To start working on this final project, you should clone this repository into your local machine by the following command:
+### 2. Activate Conda Environment
+```bash
+conda activate dlcv_final_challenge2_team6
+```
+Activate the newly created Conda environment named `dlcv_final_challenge2_team6`.
 
-    git clone https://github.com/DLCV-Fall-2024/DLCV-Fall-2024-Final-2-<team name>.git
-  
-Note that you should replace `<team_name>` with your own team name.
+### 3. Download Required Files
+```bash
+sh download.sh
+```
+Run the `download.sh` script to download the necessary datasets, pretrained models, or other required resources.
 
-For more details, please click [this link](https://docs.google.com/presentation/d/1eeXx_dL0OgkDn9_lhXnimTHrE6OYvAiiVOBwo2CTVOQ/edit?usp=sharing) to view the slides of Final Project - Multiple Concept Personalization. **The introduction video for final project can be accessed in the slides.**
+### 4. Run Sample Script
+```bash
+sh go_sample.sh
+```
+Execute the `go_sample.sh` script to run the sample inference or training process provided in the project.
 
-# Submission Rules
-### Deadline
-113/12/26 (Thur.) 23:59 (GMT+8)
-    
-# Q&A
-If you have any problems related to Final Project, you may
-- Use TA hours
-- Contact TAs by e-mail ([ntudlcv@gmail.com](mailto:ntudlcv@gmail.com))
-- Post your question under `[Final challenge 2] Discussion` section in NTU Cool Discussion
+---
