@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "datasets_ours/concept/gray_cat_4_p0/image",
+        "caption_dir": "datasets_ours/concept/gray_cat_4_p0/caption",
+        "mask_dir": "datasets_ours/concept/gray_cat_4_p0/mask"
+    }
+]

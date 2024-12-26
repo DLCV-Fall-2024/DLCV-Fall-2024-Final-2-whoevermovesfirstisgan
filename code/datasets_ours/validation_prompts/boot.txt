@@ -1,0 +1,10 @@
+photo of a <TOK>
+<TOK>
+A <TOK>, Ultra HD quality, 4K, 3d render in unreal engine
+photo of a boot
+A <TOK> on the wooden floor
+A <TOK> in a shopping mall
+A <TOK> floating on a lake
+A <TOK> buried in the sands
+A <TOK> on an exhibition
+A <TOK> in a shoebox

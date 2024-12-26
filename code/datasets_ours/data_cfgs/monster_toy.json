@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "datasets/concept/monster_toy/image",
+        "caption_dir": "datasets/concept/monster_toy/caption",
+        "mask_dir": "datasets/concept/monster_toy/mask"
+    }
+]

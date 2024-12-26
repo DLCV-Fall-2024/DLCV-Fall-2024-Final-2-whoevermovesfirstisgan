@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "datasets_ours/concept/serene_watercolor/image",
+        "caption_dir": "datasets_ours/concept/serene_watercolor/caption_v2",
+        "mask_dir": "datasets_ours/concept/serene_watercolor/mask"
+    }
+]

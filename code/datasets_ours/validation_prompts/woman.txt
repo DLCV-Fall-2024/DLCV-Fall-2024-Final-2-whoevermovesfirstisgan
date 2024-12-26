@@ -1,0 +1,10 @@
+photo of a <TOK>
+<TOK>
+A <TOK>, Ultra HD quality, 4K, detailed symmetric face, beautiful composition
+photo of a woman
+A <TOK> on a beach
+A <TOK> sitting on a chair
+A <TOK> swimming in the pool
+A <TOK> walking on the street
+A <TOK> in Times Square
+A <TOK> in front of of the Eiffel Tower

@@ -1,0 +1,4 @@
+A <TOK> on the right and a dog on the left.
+A <TOK> and a dog.
+A photo of <TOK>.
+A photo of dog.

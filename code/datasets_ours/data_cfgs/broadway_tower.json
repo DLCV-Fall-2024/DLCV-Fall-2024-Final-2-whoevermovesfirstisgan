@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "datasets/concept/broadway_tower/image",
+        "caption_dir": "datasets/concept/broadway_tower/caption",
+        "mask_dir": "datasets/concept/broadway_tower/mask"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "datasets_ours/concept/wearable_glasses/image",
+        "caption_dir": "datasets_ours/concept/wearable_glasses/caption",
+        "mask_dir": "datasets_ours/concept/wearable_glasses/mask"
+    }
+]

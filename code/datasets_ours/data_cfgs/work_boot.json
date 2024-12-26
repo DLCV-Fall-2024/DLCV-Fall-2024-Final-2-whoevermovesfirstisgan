@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "datasets/concept/work_boot/image",
+        "caption_dir": "datasets/concept/work_boot/caption",
+        "mask_dir": "datasets/concept/work_boot/mask"
+    }
+]

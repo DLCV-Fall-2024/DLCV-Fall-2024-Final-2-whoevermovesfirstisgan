@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "datasets/concept/white_chair/image",
+        "caption_dir": "datasets/concept/white_chair/caption",
+        "mask_dir": "datasets/concept/white_chair/mask"
+    }
+]

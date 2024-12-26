@@ -1,0 +1,4 @@
+A cat on the right and a <TOK> on the left.
+A <TOK> and a cat.
+A photo of cat.
+A photo of <TOK>.

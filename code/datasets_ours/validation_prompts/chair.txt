@@ -1,0 +1,10 @@
+photo of a <TOK>
+<TOK>
+A <TOK>, Ultra HD quality, 4K, 3d render in unreal engine
+photo of a chair
+A <TOK> on the wooden floor
+A person sitting on a <TOK>
+A cat sitting on a <TOK>
+A <TOK> on the grass
+A <TOK> in the living room
+A <TOK> in the balcony

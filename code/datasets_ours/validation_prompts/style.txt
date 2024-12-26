@@ -1,0 +1,4 @@
+A cat wearing wearable glasses in a watercolor style.
+A cat wearing wearable glasses in a <TOK> style.
+A gray cat wearing wearable glasses in a watercolor style.
+A gray cat wearing wearable glasses in a <TOK> style.

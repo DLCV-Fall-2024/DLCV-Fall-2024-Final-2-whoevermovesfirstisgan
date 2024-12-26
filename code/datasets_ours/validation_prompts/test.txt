@@ -1,0 +1,4 @@
+A dog, a dog and a dog near a forest.
+A <TOK>, a dog and a dog near a forest.
+A <TOK>, a <TOK> and a dog near a forest.
+A <TOK>, a <TOK> and a <TOK> near a forest.

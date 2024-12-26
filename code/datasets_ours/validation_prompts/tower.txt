@@ -1,0 +1,10 @@
+photo of a <TOK>
+<TOK>
+A <TOK>, Ultra HD quality, 4K, 3d render in unreal engine
+photo of a tower
+A <TOK> at dawn
+A <TOK> at noon
+A <TOK> in a rainy day
+A <TOK> in the snow
+A <TOK> in the dark night
+A <TOK> with aurora in the background
